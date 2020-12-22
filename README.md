@@ -3,7 +3,7 @@
 
 General Information
 ---
-
+The project is part of a graduate course (_Fundamentals of Data Analytics_) at Western Governor's University. The data is provided by the course instructor 
 
 Goals
 ---
@@ -12,4 +12,12 @@ Summary
 ---
 
 Technologies
+---
+* Microsoft Excel
+* Tableau
+
+Key Takeaways
+---
+
+References
 ---
