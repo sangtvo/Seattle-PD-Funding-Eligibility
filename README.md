@@ -5,7 +5,7 @@ General Information
 ---
 The project is part of a graduate course (_Fundamentals of Data Analytics_) at Western Governor's University. The data will not be provided, but rather an explanation of key findings of the project. The raw data set contains 1,046 observations and 20 features which is later reduced to 6 features. 
 
-**To expand the project further as a business use case, how can the police department increase the chances of their eligibility for funding if not eligible?**
+**To expand the project even further as a business use case, how can the police department increase the chances of their eligibility for funding if not eligible?**
 
 Summary
 ---
