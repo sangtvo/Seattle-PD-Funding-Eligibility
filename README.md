@@ -10,6 +10,11 @@ The project is part of a graduate course (_Fundamentals of Data Analytics_) at W
 Summary
 ---
 
+Tech Stack
+---
+* Microsoft Excel
+* Tableau
+
 Data Preprocessing/Cleaning
 ---
 * Irrelevant:
@@ -36,10 +41,9 @@ Analysis
 * The top 3 incidents are disturbances, traffic related calls, and suspicious circumstances. It is highly likely that these incidents occur due to congested traffic and overflowing of family gatherings. As Seattle is becoming a booming city in the tech hub world, companies are expanding their headquarters and bringing talented employees across the globe. In turn, homelessness is increasing due to unlivable wages and high rental/home costs (Balk 2019).
 * The largest number of events that has occurred is in sector H. As a quick sample test, googling the coordinates (47.600876, -122.33027) which is classified as a disturbance event, shows that this incident was located in the heart of downtown Seattle, Pioneer Square specifically. Due to the fact that downtown is a buzzing city with an immense amount of people, it would make sense that crimes are reported more often in this zone.
 
-Technologies
+Modeling
 ---
-* Microsoft Excel
-* Tableau
+A linear regression model is created by using Microsoft Excel Data Analysis Toolpak. The model provides a population regression parameter where the slope is β<sub>1</sub> = 1.491 and a y-intercept of β0 = 21.914. The linear regression model also displays an upward trend and indicates that the number of incidents in a specific district closely relate to the numbers of officers responding to the scene
 
 Key Takeaways
 ---
