@@ -18,6 +18,10 @@ Data Preprocessing/Cleaning
   * Scene Time is not all populated and therefore, removed.
   * One observation is removed due to missing data in district/sector feature which is important in the analysis. 
 
+Data Visualization
+---
+![alt text](https://github.com/sangtvo/Seattle-PD-Funding-Eligibility/blob/images/Average Number of Officers Per Event.png?raw=true)
+
 Summary
 ---
 
