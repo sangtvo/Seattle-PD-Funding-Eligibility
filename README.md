@@ -20,7 +20,7 @@ Data Preprocessing/Cleaning
 
 Data Visualization
 ---
-![alt text](https://github.com/sangtvo/Seattle-PD-Funding-Eligibility/blob/images/Average%Number%of%Officers%Per%Event.png?raw=true)
+(https://github.com/sangtvo/Seattle-PD-Funding-Eligibility/blob/images/Average%Number%of%Officers%Per%Event.png?raw=true)
 
 Summary
 ---
