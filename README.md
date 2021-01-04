@@ -43,7 +43,9 @@ Analysis
 
 Modeling
 ---
-A linear regression model is created by using Microsoft Excel Data Analysis Toolpak. The model provides a population regression parameter where the slope is β<sub>1</sub> = 1.491 and a y-intercept of β0 = 21.914. The linear regression model also displays an upward trend and indicates that the number of incidents in a specific district closely relate to the numbers of officers responding to the scene
+A linear regression model is created by using Microsoft Excel Data Analysis Toolpak. The model provides a population regression parameter where the slope is β<sub>1</sub> = 1.491 and a y-intercept of β<sub>0</sub> = 21.914. The linear regression model displays an upward trend and indicates that the number of incidents in a specific district are closely related to the numbers of officers responding to the scene. However, there are two outliers that is skewing the regression line, (1,1) and (125,165) which may show that it is not necessarily the best fit.
+
+By calculating R2 for the model with and without outliers, we can see how much variability of the response data around its mean. Ideally, the higher the R2, closer to 1, the better the model fits the data. However, there are some limitations with R2 and sometimes does not indicate whether a regression model is adequate. Therefore, we must also consider sum of absolute error (SAE) calculation as it shows how far the regression line is from the actual data points. The lower the SAE, the better the fit.
 
 Key Takeaways
 ---
