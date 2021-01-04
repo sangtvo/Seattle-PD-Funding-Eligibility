@@ -7,6 +7,17 @@ The project is part of a graduate course (_Fundamentals of Data Analytics_) at W
 
 **To expand the project even further as a business use case, how can the police department increase the chances of their eligibility for funding if not eligible?**
 
+Data Preprocessing/Cleaning
+---
+* Irrelevant:
+  * Removed ID and event number columns since the General Offense Number can be used as the unique identifier for each event.
+  * Time stamp is not neccesary for the study.
+* Redundant: 
+  * Event Clearing Subgroup, Event Clearing Description, Initial Type Description/Subgroup/Group are already explained by Event Clearing Group.
+* Missing Data:
+  * Scene Time is not all populated and therefore, removed.
+  * One observation is removed due to missing data in district/sector feature which is important in the analysis. 
+
 Summary
 ---
 
