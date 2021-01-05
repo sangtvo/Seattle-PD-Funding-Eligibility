@@ -5,7 +5,7 @@
 
 Table of Contents
 ---
-[General-Information](#general-information)
+[General-Information](#general-information)<br>
 [Key-Takeaways](#key-takeaways)
 <a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#general-information"/>
 <a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility/blob/main/README.md#key-takeaways"/>
