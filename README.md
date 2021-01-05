@@ -51,9 +51,28 @@ Linear Regression             |  Residual Plot
 :-------------------------:|:-------------------------:
 ![LR](https://github.com/sangtvo/Seattle-PD-Funding-Eligibility/blob/main/images/LR_outlier.gif?raw=true)  |  ![Residual](https://github.com/sangtvo/Seattle-PD-Funding-Eligibility/blob/main/images/Residual_outlier.gif?raw=true)
 
-
-![LR](https://github.com/sangtvo/Seattle-PD-Funding-Eligibility/blob/main/images/LR_outlier.gif?raw=true)
-![Residual](https://github.com/sangtvo/Seattle-PD-Funding-Eligibility/blob/main/images/Residual_outlier.gif?raw=true)
+x             |  E(y) |  y |  E(y) - y = e
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+83	| 145.| 667	| 158	| -12.333
+125	| 208.289| 	165	| 43.289
+37	| 77.081| 	86| 	-8.919
+64| 	117.338| 	131| 	-13.662
+60	| 111.374| 	121| 	-9.626
+31| 	68.135| 	72	| -3.865
+52	| 99.446| 	96	| 3.446
+60| 	111.374	| 124| 	-12.626
+44| 	87.518| 	82| 	5.518
+1	| 23.405	| 1	| 22.405
+41	| 83.045| 	77| 	6.045
+62	| 114.356| 	120| 	-5.644
+38	| 78.572	| 72| 	6.572
+44	| 87.518	| 76| 	11.518
+91	| 157.595	| 176| 	-18.405
+53	| 100.937| 	117| 	-16.063
+35	| 74.099| 	68| 	6.099
+39	| 80.063| 	76| 	4.063
+86	| 150.14	| 158	| -7.86
+| | SAE= | 0.048
 
 The linear regression model with outliers demonstrate a R<sup>2</sup> = 0.8795 and SAE = 0.048 while the linear regression model without outliers have a R<sup>2</sup> = 0.9591 and SAE = 68.007 (not shown). Even though the linear regression model without outliers has a higher R2, the SAE is not minimized.
 
