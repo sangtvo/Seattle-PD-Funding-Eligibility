@@ -53,7 +53,7 @@ Linear Regression             |  Residual Plot
 
 x             |  E(y) |  y |  E(y) - y = e
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-83	| 145.| 667	| 158	| -12.333
+83	| 145.667	| 158	| -12.333
 125	| 208.289| 	165	| 43.289
 37	| 77.081| 	86| 	-8.919
 64| 	117.338| 	131| 	-13.662
@@ -72,9 +72,9 @@ x             |  E(y) |  y |  E(y) - y = e
 35	| 74.099| 	68| 	6.099
 39	| 80.063| 	76| 	4.063
 86	| 150.14	| 158	| -7.86
-| | SAE= | 0.048
+| | | SAE= | 0.048
 
-The linear regression model with outliers demonstrate a R<sup>2</sup> = 0.8795 and SAE = 0.048 while the linear regression model without outliers have a R<sup>2</sup> = 0.9591 and SAE = 68.007 (not shown). Even though the linear regression model without outliers has a higher R2, the SAE is not minimized.
+The linear regression model with outliers demonstrate a R<sup>2</sup> = 0.8795 and SAE = 0.048 while the linear regression model without outliers have a R<sup>2</sup> = 0.9591 and SAE = 68.007 (not shown). Even though the linear regression model without outliers has a higher R<sup>2</sup>, the SAE is not minimized.
 
 The residual plot above shows that the two outliers seem to be pulling data points away from the trend line (y=0). However, when removing the outliers in the residual plot (not shown) becomes much more randomly dispersed and the “mean of zero” assumption almost holds true, meaning the mean is approximately zero all the way across the plot. 
 
