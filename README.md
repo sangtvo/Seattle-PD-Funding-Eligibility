@@ -82,31 +82,24 @@ The residual plot above shows that the two outliers seem to be pulling data poin
 
 When looking at the ANOVA table, the model demonstrates that the F value is less than 0.05 and therefore statistically significant.
 
-Linear Regression             |  Residual Plot
-:-------------------------:|:-------------------------:
-Mean |	1.889952153
-Standard Error|	0.036811154
-Median	|2
-Mode	|1
-Standard Deviation	|1.189974282
-Sample Variance|	1.416038791
-Kurtosis	|-0.93853082
-Skewness	|0.151756917
-Range	|4
-Minimum|	0
-Maximum|	4
-Sum |	1975
-Count	|1045
-
-
 <table>
-  <tr><th colspan=2>Clean Data</th></tr>
+  <tr><th colspan=2>Descriptive Statistics</th></tr>
   <tr><td>Mean</td><td>1.889952153</td></tr>
-  <tr><td>||</td><td>Logical or</td></tr>
-  <tr><td>!</td><td>Logical not</td></tr>
-  <tr><td>? :</td><td>Logical ternary</td></tr>
+  <tr><td>Standard Error</td><td>0.036811154</td></tr>
+  <tr><td>Median</td><td>2</td></tr>
+  <tr><td>Mode</td><td>1</td></tr>
+  <tr><td>Standard Deviation</td><td>1.189974282</td></tr>
+  <tr><td>Sample Variance</td><td>1.416038791</td></tr>
+  <tr><td>Kurtosis</td><td>-0.93853082</td></tr>
+  <tr><td>Skewness</td><td>0.151756917</td></tr>
+  <tr><td>Range</td><td>4</td></tr>
+  <tr><td>Minimum</td><td>0</td></tr>
+  <tr><td>Maximum</td><td>4</td></tr>
+  <tr><td>Sum</td><td>1975</td></tr>
+  <tr><td>Count</td><td>1,045</td></tr>
 </table>
 
+The current threshold to receive additional funding for the Seattle Police Department is 2.5, however, they do not meet the expected threshold. When calculating the mean of the clean data as shown in Figure 9, the mean is 1.889 which is below the 2.5 threshold. This means that the department averages 1.889 officers at the scene per incident and is ineligible for additional funding. 
 
 Key Takeaways
 ---
