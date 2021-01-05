@@ -82,6 +82,32 @@ The residual plot above shows that the two outliers seem to be pulling data poin
 
 When looking at the ANOVA table, the model demonstrates that the F value is less than 0.05 and therefore statistically significant.
 
+Linear Regression             |  Residual Plot
+:-------------------------:|:-------------------------:
+Mean |	1.889952153
+Standard Error|	0.036811154
+Median	|2
+Mode	|1
+Standard Deviation	|1.189974282
+Sample Variance|	1.416038791
+Kurtosis	|-0.93853082
+Skewness	|0.151756917
+Range	|4
+Minimum|	0
+Maximum|	4
+Sum |	1975
+Count	|1045
+
+
+<table>
+  <tr><th colspan=2>Clean Data</th></tr>
+  <tr><td>Mean</td><td>1.889952153</td></tr>
+  <tr><td>||</td><td>Logical or</td></tr>
+  <tr><td>!</td><td>Logical not</td></tr>
+  <tr><td>? :</td><td>Logical ternary</td></tr>
+</table>
+
+
 Key Takeaways
 ---
 * Focus on zones with less average offier per site and the ones with the most ticketed.
