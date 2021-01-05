@@ -10,17 +10,20 @@ Table of Contents
 3. [Tech Stack](#tech-stack)
 4. [Data Preprocessing/Cleaning](#data-preprocessingcleaning)
 5. [Data Visualization](#data-visualization)
-6. 
-. [Key Takeaways](#key-takeaways)
+6. [Data Analysis](#data-analysis)
+7. [Modeling](#modeling)
+8. [Key Takeaways](#key-takeaways)
+9. [References](#references)
+
 <a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#general-information"/>
 <a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#summary"/>
 <a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#tech-stack"/>
 <a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#data-preprocessingcleaning"/>
 <a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#data-visualization"/>
-
-
-<a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility/blob/main/README.md#key-takeaways"/>
-
+<a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#data-analysis"/>
+<a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#modeling"/>
+<a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#key-takeaways"/>
+<a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#references"/>
 
 General Information
 ---
