@@ -51,6 +51,8 @@ Linear Regression             |  Residual Plot
 :-------------------------:|:-------------------------:
 ![LR](https://github.com/sangtvo/Seattle-PD-Funding-Eligibility/blob/main/images/LR_outlier.gif?raw=true)  |  ![Residual](https://github.com/sangtvo/Seattle-PD-Funding-Eligibility/blob/main/images/Residual_outlier.gif?raw=true)
 
+![ANOVA](https://github.com/sangtvo/Seattle-PD-Funding-Eligibility/blob/main/images/ANOVA.GIF?raw=true)
+
 x             |  E(y) |  y |  E(y) - y = e
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 83	| 145.667	| 158	| -12.333
@@ -76,7 +78,9 @@ x             |  E(y) |  y |  E(y) - y = e
 
 The linear regression model with outliers demonstrate a R<sup>2</sup> = 0.8795 and SAE = 0.048 while the linear regression model without outliers have a R<sup>2</sup> = 0.9591 and SAE = 68.007 (not shown). Even though the linear regression model without outliers has a higher R<sup>2</sup>, the SAE is not minimized.
 
-The residual plot above shows that the two outliers seem to be pulling data points away from the trend line (y=0). However, when removing the outliers in the residual plot (not shown) becomes much more randomly dispersed and the “mean of zero” assumption almost holds true, meaning the mean is approximately zero all the way across the plot. 
+The residual plot above shows that the two outliers seem to be pulling data points away from the trend line (y=0). However, when removing the outliers in the residual plot (not shown) becomes much more randomly dispersed and the “mean of zero” assumption almost holds true, meaning the mean is approximately zero all the way across the plot. Despite this and the limited observations, the best fit for linear regression model is with outliers. 
+
+When looking at the ANOVA table, the model demonstrates that the F value is less than 0.05 and therefore statistically significant.
 
 Key Takeaways
 ---
