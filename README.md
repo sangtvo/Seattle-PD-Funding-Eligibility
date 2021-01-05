@@ -1,8 +1,6 @@
 # Project 01: Seattle PD Funding Eligibility
 > The analysis aims to gain insight about the logs of emergency 911 calls from the Seattle Police Department reported on March 26, 2016 - March 28, 2016. In addition, the study discusses whether the department will be eligible for additional funding if the minimum standard of 2.5 officers onsite per incident is met.
 
-
-
 Table of Contents
 ---
 1. [General Information](#general-information)
@@ -12,8 +10,9 @@ Table of Contents
 5. [Data Visualization](#data-visualization)
 6. [Data Analysis](#data-analysis)
 7. [Modeling](#modeling)
-8. [Key Takeaways](#key-takeaways)
-9. [References](#references)
+8. [Solution](#solution)
+9. [Key Takeaways](#key-takeaways)
+10. [References](#references)
 
 <a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#general-information"/>
 <a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#summary"/>
@@ -22,6 +21,7 @@ Table of Contents
 <a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#data-visualization"/>
 <a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#data-analysis"/>
 <a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#modeling"/>
+<a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#solution"/>
 <a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#key-takeaways"/>
 <a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#references"/>
 
@@ -33,6 +33,7 @@ The project is part of a graduate course (_Fundamentals of Data Analytics_) at W
 
 Summary
 ---
+The best fitted linear regression model is y = 1.491x + 21.914 which means that for every additional incident reported (x), you can expect officers on site to increase by an average of 1.491. The overall mean of the data is 1.889 which is below the 2.5 threshold and is not qualified for additional funding. In order to increase their eligibility for funding, the Seattle PD must focus on zones with average officers at scene that is less than or equal to 2 and the largest reported incident zones. There are 12 zones that need assistance and can lead to funding eligibility.
 
 Tech Stack
 ---
@@ -125,6 +126,10 @@ When looking at the ANOVA table, the model demonstrates that the F value is less
 
 The current threshold to receive additional funding for the Seattle Police Department is 2.5, however, they do not meet the expected threshold. When calculating the mean of the clean data, the mean is 1.889 which is below the 2.5 threshold (1.904 on graph due to one zone not removed yet). This means that the department averages 1.889 officers at the scene per incident and is ineligible for additional funding. However, there is a limitation of this study. Since the study is only for a span of 3 days, it is best to collect data for the whole month or quarter as a better estimate. 
 
+Solution
+---
+Since the Seattle PD is not eligible for funding due to a mean of 1.889, the department should focus on zones with less average officer per site and zones with the largest reported incidents. By targeting zones with average officers that have a mean of 2 or less and reach a mean score of 2+, it is possible it will bring the overall mean to 2.5. If it is not reached still, then targeting the highest reported incidents zone can also bring it up by mandating 3 officers per incident. If the police department is understaffed, that would mean that officers are working over-time and arriving at multiple scenes to keep up with the incoming calls. This inefficiency will continue to drive down (or similar amount) the mean of officers at scene and the department will never reach that 2.5 threshold to receive any funding in future years. If the police department hired a human resources analyst, this person can detect how many officers are needed and analyze their work schedules to be more effective in order to meet demand.
+
 Key Takeaways
 ---
 * The number of incidents on Sunday (March 27, 2016) is 2x as high compared to Friday and Saturday that same weekend due to Easter Sunday.
@@ -132,10 +137,6 @@ Key Takeaways
 * At least 2 officers arrive onsite and show up more often in the outskirts of downtown Seattle. 
 * The W zone has the lowest incidents reported due to Burley and Bethey districts having less population and more deserted, but the highest mean of officers onsite (2.324).
 * The H zone which is downtown Seattle has the highest reported incidents, but the lowest mean of officers onsite of 1.32. 
-
-Solution
----
-Since the Seattle PD is not eligible for funding due to a mean of 1.889, the department should focus on zones with less average officer per site and zones with the largest reported incidents. By targeting zones with average officers that have a mean of 2 or less and reach a mean score of 2+, it is possible it will bring the overall mean to 2.5. If it is not reached still, then targeting the highest reported incidents zone can also bring it up by mandating 3 officers per incident. If the police department is understaffed, that would mean that officers are working over-time and arriving at multiple scenes to keep up with the incoming calls. This inefficiency will continue to drive down (or similar amount) the mean of officers at scene and the department will never reach that 2.5 threshold to receive any funding in future years. If the police department hired a human resources analyst, this person can detect how many officers are needed and analyze their work schedules to be more effective to meet demand.
 
 References
 ---
