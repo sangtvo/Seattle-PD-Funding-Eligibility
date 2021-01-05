@@ -2,10 +2,14 @@
 > The analysis aims to gain insight about the logs of emergency 911 calls from the Seattle Police Department reported on March 26, 2016 - March 28, 2016. In addition, the study discusses whether the department will be eligible for additional funding if the minimum standard of 2.5 officers onsite per incident is met.
 
 
-### Table of Contents
+
+Table of Contents
+---
+[General-Information](#general-information)
 [Key-Takeaways](#key-takeaways)
+<a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#general-information"/>
 <a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility/blob/main/README.md#key-takeaways"/>
-##key-takeaways
+
 
 General Information
 ---
