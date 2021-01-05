@@ -123,13 +123,20 @@ When looking at the ANOVA table, the model demonstrates that the F value is less
   <tr><td>Count</td><td>1,045</td></tr>
 </table>
 
-The current threshold to receive additional funding for the Seattle Police Department is 2.5, however, they do not meet the expected threshold. When calculating the mean of the clean data as shown in Figure 9, the mean is 1.889 which is below the 2.5 threshold. This means that the department averages 1.889 officers at the scene per incident and is ineligible for additional funding. 
+The current threshold to receive additional funding for the Seattle Police Department is 2.5, however, they do not meet the expected threshold. When calculating the mean of the clean data, the mean is 1.889 which is below the 2.5 threshold (1.904 on graph due to one zone not removed yet). This means that the department averages 1.889 officers at the scene per incident and is ineligible for additional funding. However, there is a limitation of this study. Since the study is only for a span of 3 days, it is best to collect data for the whole month or quarter as a better estimate. 
 
 Key Takeaways
 ---
-* Focus on zones with less average offier per site and the ones with the most ticketed.
-* The number of incidents on Sunday (March 27, 2016) is 2x as high as Friday and Saturday that weekend.
-* The top 3 incidents are disturbances, traffic related calls, and suspicious circumstances. 
+* The number of incidents on Sunday (March 27, 2016) is 2x as high compared to Friday and Saturday that same weekend due to Easter Sunday.
+* The top 3 incidents are disturbances, traffic related calls, and suspicious circumstances which are 3x more common than other incidents.
+* At least 2 officers arrive onsite and show up more often in the outskirts of downtown Seattle. 
+* The W zone has the lowest incidents reported due to Burley and Bethey districts having less population and more deserted, but the highest mean of officers onsite (2.324).
+* The H zone which is downtown Seattle has the highest reported incidents, but the lowest mean of officers onsite of 1.32. 
+
+Solution
+---
+Since the Seattle PD is not eligible for funding due to a mean of 1.889, the department should focus on zones with less average officer per site and zones with the largest reported incidents. By targeting zones with average officers that have a mean of 2 or less and reach a mean score of 2+, it is possible it will bring the overall mean to 2.5. If it is not reached still, then targeting the highest reported incidents zone can also bring it up by mandating 3 officers per incident. If the police department is understaffed, that would mean that officers are working over-time and arriving at multiple scenes to keep up with the incoming calls. This inefficiency will continue to drive down (or similar amount) the mean of officers at scene and the department will never reach that 2.5 threshold to receive any funding in future years. If the police department hired a human resources analyst, this person can detect how many officers are needed and analyze their work schedules to be more effective to meet demand.
 
 References
 ---
+Balk, G. (2019, April 4). Is Seattle 'dying'? Crime rates tell a different story. Retrieved June 12, 2020, from http://www.seattletimes.com/seattle-news/data/is-seattle-dying-not-if-you-look-crime-rates-from-the-80s-and-90s/
