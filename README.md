@@ -9,7 +9,7 @@ Table of Contents
 4. [Data Preprocessing/Cleaning](#data-preprocessingcleaning)
 5. [Data Visualization](#data-visualization)
 6. [Data Analysis](#data-analysis)
-7. [Modeling](#modeling)
+7. [Linear Regression](#linear-regression)
 8. [Solution](#solution)
 9. [Key Takeaways](#key-takeaways)
 10. [References](#references)
@@ -20,7 +20,7 @@ Table of Contents
 <a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#data-preprocessingcleaning"/>
 <a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#data-visualization"/>
 <a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#data-analysis"/>
-<a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#modeling"/>
+<a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#linear-regression"/>
 <a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#solution"/>
 <a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#key-takeaways"/>
 <a name="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility#references"/>
@@ -53,14 +53,6 @@ Data Preprocessing/Cleaning
 
 Data Visualization
 ---
-<table>
-  <tr><th colspan=2>Data Visualization</th></tr>
-  <tr><td> <img src="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility/blob/main/images/Average%20Number%20of%20Officers%20Per%20Event.png?raw=true"> </td><td> <img src="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility/blob/main/images/Average%20Number%20of%20Officers%20Per%20Zone.png?raw=true"> </td></tr>
-  <tr><td> <img src="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility/blob/main/images/Number%20of%20Incidents%20by%20Date.png?raw=true"> </td><td> <img src="https://github.com/sangtvo/Customer-Churn-Analysis/blob/main/images/bivar_4.png?raw=true"> </td></tr>
-  <tr><td> <img src="https://github.com/sangtvo/Seattle-PD-Funding-Eligibility/blob/main/images/Num%20of%20Incidents%20by%20District.png?raw=true"> </td>
-</table>
-
-
 ![Districts](https://github.com/sangtvo/Seattle-PD-Funding-Eligibility/blob/main/images/Districts.png?raw=true)
 ![AvgNumPerEvent](https://github.com/sangtvo/Seattle-PD-Funding-Eligibility/blob/main/images/Average%20Number%20of%20Officers%20Per%20Event.png?raw=true)
 ![AvgNumPerZone](https://github.com/sangtvo/Seattle-PD-Funding-Eligibility/blob/main/images/Average%20Number%20of%20Officers%20Per%20Zone.png?raw=true)
